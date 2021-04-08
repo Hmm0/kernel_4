@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Cloning dependencies"
-git clone --depth=1 -b eleven https://github.com/Unknownbitch07/android_kernel_xiaomi_msm8953 kernel
+git clone --depth=1 -b eleven https://github.com/Unknownbitch07/kernel kernel
 cd kernel
 git clone --depth=1 -b master https://github.com/kdrag0n/proton-clang clang
 git clone https://github.com/MASTERGUY/AnyKernel3 -b tissot --depth=1 AnyKernel
